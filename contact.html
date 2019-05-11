@@ -19,9 +19,11 @@
 
   <title>Title page</title>  
 
-<link href="./main.a3f694c0.css" rel="stylesheet"></head>
+<link href="./main.a3f694c0.css" rel="stylesheet">
+<link rel="stylesheet" href="./index.css">
+</head>
 
-<body>
+<body class="contact-us-page">
 
  <!-- Add your content of header -->
 <header>
@@ -35,23 +37,16 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="./index.html" title="">
-          <img src="./assets/images/mashuptemplate.svg" class="navbar-logo-img" alt="">
+          S | J | O
         </a>
       </div>
 
       <div class="collapse navbar-collapse" id="navbar-collapse-uarr">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="./index.html" title="" class="active">Home</a></li>
-          <li><a href="./about.html" title=""> About</a></li>
-          <li><a href="./pricing.html" title=""> Pricing </a></li>
-          <li><a href="./contact.html" title="">Contact</a></li>
-          <li><a href="./components.html" title="">Components</a></li>
-          <li>
-            <p>
-              <a href="./download.html" class="btn btn-primary navbar-btn" title="">Download</a>
-            </p>
-          </li>
-          
+            <li><a href="./index.html" title="" class="active">Home</a></li>
+            <li><a href="./about.html" title="">Portfolio</a></li>
+            <li><a href="./contact.html" title="">Contact Me</a></li>
+            <li><a href="./components.html" title="">Notes</a></li>          
         </ul>
       </div>
     </div>
@@ -63,48 +58,56 @@
 <div class="section-container no-padding">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
-                <div id="map"></div>
-            </div>
+           
             <div class="col-xs-12">
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
+                        <h1 class="contact-us-header">Contact Us</h1>
+                        <p>Questions? Jot a note and I’ll get back to you as quickly as possible.</p>
                         <form action="" class="reveal-content contact-form">
                             <div class="form-group">
-                                <input type="name" class="form-control" id="name" placeholder="Full name">
+                                <label for="name">Name</label>
+                                <input type="name" class="form-control" required id="name" placeholder="Full name">
                             </div>
                             <div class="form-group">
+                              <label for="email">Email Address</label>
                                 <input type="email" class="form-control" id="email" placeholder="Email">
                             </div>
                             <div class="form-group">
+                                <label for="phone-number">Contact Number</label>
+                                  <input type="text" class="form-control" id="phone-number" placeholder="Phone Number">
+                              </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
                                 <input type="text" class="form-control" id="subject" placeholder="Subject">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" rows="3" placeholder="Enter your message"></textarea>
+                                <label for="message">What’s on your mind?</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary btn-lg">Send</button>
                         </form>
                     </div>
-
-
-                    <div class="col-md-5 col-md-offset-1">
-                            
-                        <h3>Head Office</h3>
+                    <div class="col-md-12 ">
+                          <h2><strong>OR</strong></h2>
+                        <h2 class="contact-us-header">Contact Details</h2>
                         
                         <div>
-                            <p>42 rue Rouelle <br/>75015 Paris FRANCE</p>
+                            <p>Phone Number: <br/> +(60)-11-1273-2408</p>
                         </div>
                         <div>
-                            <p>contact@mybusiness.com<br>+331 45 31 64 32</p>
+                            <p>Email: <br>samuelomamalin@gmail.com</p>
                         </div>
                     
                         <div>
-                            <h3>Employment</h3>
+                            <h3 class="special-case">More Info</h3>
                         </div>
                         <div>
-                            <p>To apply for a job with our team, please feel free to send us your Linkedin profile link
-                                ou CV to : employment@mybusiness.com</p>
+                            <p>If you require further details, please do not hesitate to let me know! Meanwhile,
+                              here's my resume!
+                            </p>
+                            <a href="Samuel_Omamalin_CV_final_v1.pdf" download class="btn btn-lg btn-primary">Resume</a>
                         </div>
                        
                     </div>
@@ -118,46 +121,40 @@
     </div>
 </div>
 
+<div class="section-container background-color-container white-text-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="text-center">
+                    <h2>Lust</h2>
+                    <p> Depends on how you use it, it may be a double edged sword, or may be the strength to push
+                      you to achieve what you want in life. Be lustful, for knowledge, not for fame or power. Life is 
+                      full of regrets, you just got to make them worth it.   </p>
+                  
+                </div>
+            </div>
+        </div>
+     </div>
+ </div>
 
 <footer>
     <div class="section-container footer-container">
         <div class="container">
             <div class="row">
                     <div class="col-md-4">
-                        <h4>About us</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor</p>
+                        <h4> <a href="./about.html">About Me</a></h4>
+                        <p>Just a guy that strives to get what he wants.</p>
+                        <p>Contact Number: +(60)-111273-2408</p>
+                        <p>Email: samuelomamalin@gmail.com </p>
                     </div>
+                    <div class="col-sm-8">
+                        <div class="social-bot social-buttons pull-right">
+                          <a target="_blank" href="" class="social-button github"><i class="fa fa-github"></i></a>
+                          <a target="_blank" href="" class="social-button linkedin"><i class="fa fa-linkedin"></i></a>
+                          <a href="mailto:samuelomamalin@gmail.com" class="social-button mailto"><i class="fa fa-envelope"></i></a>
+                        </div>    
+                      </div>
 
-                    <div class="col-md-4">
-                        <h4>Do you like ? Share this !</h4>
-                        <p>
-                            <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                          </a>
-                          <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                          </a>
-                          <a href="https://www.linkedin.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                          </a>
-                        </p>
-                        <p><small>© Untitled | Website created with <a href="http://www.mashup-template.com/" class="link-like-text" title="Create website with free html template">Mashup Template</a>/<a href="http://www.unsplash.com/" class="link-like-text" title="Beautiful Free Images">Unsplash</a></small></p>    
-                    </div>
-
-                    <div class="col-md-4">
-                        <h4>Subscribe to newsletter</h4>
-                        
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input type="text" class="form-control footer-input-text">
-                                <div class="input-group-btn">
-                                    <button type="button" class="btn btn-primary btn-newsletter ">OK</button>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
             </div>
         </div>
     </div>

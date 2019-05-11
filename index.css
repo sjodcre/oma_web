@@ -1,0 +1,147 @@
+footer {
+    background-color: black;
+}
+
+.logo-skills {
+    width:100px;
+}
+
+.logo-figure {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    padding-left: auto;
+    width:250px;
+    height: 250px;
+    filter: brightness(75%);
+}
+
+div.background-image-container {
+    background-image: url('./assets/images/jumbo-image-grayscale.png');
+}
+
+.social-button {
+    display: inline-block;
+    background-color: #fff;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    opacity: .99;
+    border-radius: 28%;
+    /* box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05); */
+    -webkit-transition: all 0.35s linear;
+    transition: all 0.35s linear;
+}
+
+.social-button .fa {
+    font-size: 38px;
+    vertical-align: middle;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+.social-button.github .fa {
+    color: #563D7C;
+}
+
+.social-button.github:hover .fa {
+    color: white;
+}
+
+a.social-button.github:hover{
+    background-color: #563D7C;
+}
+
+.social-button.linkedin .fa {
+    color: #0177B5;
+}
+
+.social-button.linkedin:hover .fa {
+    color: white;
+}
+
+a.social-button.linkedin:hover{
+    background-color: #0177B5;
+}
+
+.social-button.mailto .fa {
+    color: #dd0000;
+}
+
+.social-button.mailto:hover .fa {
+    color: white;
+}
+
+a.social-button.mailto:hover{
+    background-color: #dd0000;
+}
+
+.footer-container {
+    padding-bottom: 10px;
+}
+
+footer .footer-container h4 a {
+    color: white;
+    margin-top: 0;
+}
+
+footer .footer-container p {
+    margin: 0;
+}
+
+ul.nav.navbar-nav li a:hover{
+    color:blue;
+}
+
+@media (min-width: 768px) {
+.navbar-nav>li>a {
+    margin: 26.5px 15px;
+    padding: 0;
+}
+}
+body {
+    height: 100%;
+}
+
+.img-responsive {
+    opacity: 0.5;
+}
+
+.carousel-inner>.item>img {
+    height: 560px;
+    width: 1140px;
+}
+
+div.carousel-inner div.item div.carousel-caption {
+    text-align: left;
+    margin-left: 30px;
+    left: 0;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.carousel-inner div.item {
+    border: 1px grey solid;
+}
+
+h3.special-case {
+    margin-bottom: 10px;
+}
+
+.contact-us-page .contact-us-header {
+    background-color: #f1f1f1;
+    padding-left: 10px;
+}
+
+.contact-us-page input, .contact-us-page textarea {
+    border: 1px #c2c2c2 solid;
+}
