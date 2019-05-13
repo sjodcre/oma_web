@@ -23,6 +23,40 @@ div.background-image-container {
     background-image: url('./assets/images/jumbo-image-grayscale.png');
 }
 
+/* .about-page div.about-page-intro {
+    background-image: url('./assets/images/img-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    opacity: 0.8;
+    filter: brightness(20%);
+} */
+
+.about-page div.about-page-intro {
+    position: relative;
+    padding: 0 5em 5em;
+    height: 500px;
+    overflow: hidden;
+
+  }
+  
+  .about-page div.about-page-intro::before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background-image: url("./assets/images/img-01.jpg");
+    background-position: center;
+    background-size: cover;
+    filter: brightness(50%);
+    opacity: 0.8;
+  }
+  
+
 .social-button {
     display: inline-block;
     background-color: #fff;
@@ -112,7 +146,7 @@ body {
     height: 100%;
 }
 
-.img-responsive {
+.home-page .img-responsive {
     opacity: 0.5;
 }
 
@@ -145,3 +179,76 @@ h3.special-case {
 .contact-us-page input, .contact-us-page textarea {
     border: 1px #c2c2c2 solid;
 }
+
+.about-page div.row-items  {
+    /* justify-content: center;
+    align-items: center; */
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    /* float: none; */
+    /* text-align: center; */
+    text-align: left;
+    margin-top: 10px;
+}
+
+.about-page div .portfolio-image {
+    border: 2px grey solid;
+    border-radius: 2%;
+}
+
+.about-page .projects-header {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.about-page .about-page-intro h1 {
+    text-align: left;
+    color: white;
+    text-shadow: 0 1px 3px #000;
+    font-weight: 500;
+    padding-top: 0;
+}
+
+.about-page .about-page-intro p {
+    text-align: left;
+    color: white;
+    text-shadow: 0 1px 3px #000;
+    font-weight: 500;
+    padding-top: 0;
+    font-size: 1.8rem;
+    line-height: 40px;
+}
+
+.about-page .project-components {
+    display: inline-block;
+    margin-right:10px;
+}
+
+.about-page .project-components.components {
+    border: 1px black solid;
+    padding: 2px;
+    border-radius: 10%;
+    color: rgb(57, 115, 157);
+    background-color:  rgb(225, 236, 244);
+}
+
+.about-page .project-components.components img.component-icon {
+    width: 20px;
+}
+
+.about-page p span a {
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+/* .about-page .img-thumbnail {
+    width: 140px;
+} */
+
+@media only screen and (max-width: 768px) {
+    .about-page .about-page-intro p {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+  }
