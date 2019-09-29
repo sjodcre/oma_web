@@ -23,6 +23,21 @@ div.background-image-container {
     background-image: url('./assets/images/jumbo-image-grayscale.png');
 }
 
+img.grayscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+span.important_note {
+    color: #FF0000;
+    font-weight: 500;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 /* .about-page div.about-page-intro {
     background-image: url('./assets/images/img-01.jpg');
     background-repeat: no-repeat;
